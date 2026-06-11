@@ -1,0 +1,335 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flor da Vida - Floricultura e Jardinagem</title>
+  <meta name="description" content="Flor da Vida - Sua floricultura com as flores mais frescas e belos arranjos para todas as ocasiões.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header class="header">
+    <div class="container header-inner">
+      <div class="logo">
+        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 7.5a4.5 4.5 0 1 1 4.5 4.5M12 7.5A4.5 4.5 0 1 0 7.5 12M12 7.5V9m-4.5 3a4.5 4.5 0 1 0 4.5 4.5M7.5 12H9"/>
+          <circle cx="12" cy="12" r="3"/>
+          <path d="M12 7.5V4m-4.5 8H4m16 0h-3.5"/>
+        </svg>
+        <span class="logo-text">Flor da Vida</span>
+      </div>
+      <nav class="nav-desktop">
+        <a href="#inicio">Início</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <button class="menu-btn" id="menuBtn" aria-label="Menu">
+        <svg class="menu-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+        <svg class="close-icon hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"/>
+          <line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+    <nav class="nav-mobile" id="navMobile">
+      <a href="#inicio">Início</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+  <!-- Hero -->
+  <section id="inicio" class="hero">
+    <img src="https://images.unsplash.com/photo-1562690868-60bbe7293e94?w=1200&q=80" alt="Loja Flor da Vida com flores coloridas" class="hero-bg">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1>Flor da Vida</h1>
+      <p>Transforme momentos especiais com a beleza das flores. Buquês frescos, arranjos únicos e plantas que encantam.</p>
+      <div class="hero-buttons">
+        <a href="#produtos" class="btn btn-primary">Conheça nossos produtos</a>
+        <a href="#contato" class="btn btn-outline">Fale conosco</a>
+      </div>
+    </div>
+  </section>
+  <!-- Diferenciais -->
+  <section class="features container">
+    <div class="feature-card">
+      <div class="feature-icon feature-icon-green">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M11 20A7 7 0 0 1 9.8 6.5C10.3 5.8 11 5 12 4c1 1 1.7 1.8 2.2 2.5A7 7 0 0 1 13 20"/>
+          <path d="M11 20v2"/>
+          <path d="M13 20v2"/>
+          <path d="M12 13v5"/>
+        </svg>
+      </div>
+      <h3>Flores Frescas</h3>
+      <p>Seleção diária das melhores flores do mercado, com qualidade garantida.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon feature-icon-rose">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M19 14c1.5 0 2.5-1 2.5-2.5S20.5 9 19 9c-.5 0-1 .2-1.3.5.5.8.8 1.7.8 2.7s-.3 1.9-.8 2.7c.3.3.8.5 1.3.5z"/>
+          <path d="M5 14c-1.5 0-2.5-1-2.5-2.5S3.5 9 5 9c.5 0 1 .2 1.3.5-.5.8-.8 1.7-.8 2.7s.3 1.9.8 2.7c-.3.3-.8.5-1.3.5z"/>
+          <path d="M12 21c-3.5 0-6-2.5-6-6s2.5-6 6-6 6 2.5 6 6-2.5 6-6 6z"/>
+          <path d="M12 9V5"/>
+        </svg>
+      </div>
+      <h3>Arranjos Personalizados</h3>
+      <p>Criamos buquês exclusivos para cada ocasião e gosto.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon feature-icon-green">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="1" y="3" width="15" height="13"/>
+          <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
+          <circle cx="5.5" cy="18.5" r="2.5"/>
+          <circle cx="18.5" cy="18.5" r="2.5"/>
+        </svg>
+      </div>
+      <h3>Entrega Rápida</h3>
+      <p>Entregamos no mesmo dia para toda a região metropolitana.</p>
+    </div>
+  </section>
+  <!-- Produtos -->
+  <section id="produtos" class="products-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Nossos Produtos</h2>
+        <p>Confira nossos buquês e arranjos mais populares</p>
+      </div>
+      <div class="products-grid">
+        <div class="product-card">
+          <div class="product-img">
+            <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&q=80" alt="Buquê de rosas românticas">
+          </div>
+          <div class="product-body">
+            <div class="stars">
+              <svg class="star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg class="star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg class="star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg class="star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg class="star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <h3>Buquê de Rosas Romântico</h3>
+            <p>12 rosas em tons de rosa e creme, embrulho em papel kraft.</p>
+            <p class="price">R$ 89,90</p>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-img">
+            <img src="https://images.unsplash.com/photo-1470509037663-253afd7f0f51?w=600&q=80" alt="Buquê de girassóis">
+          </div>
+          <div class="product-body">
+            <div class="stars">
+              <svg class="star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg class="star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg class="star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg class="star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg class="star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <h3>Buquê de Girassóis</h3>
+            <p>Girassóis vibrantes com eucalipto em pote rústico de vidro.</p>
+            <p class="price">R$ 69,90</p>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-img">
+            <img src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?w=600&q=80" alt="Arranjo tropical de orquídeas">
+          </div>
+          <div class="product-body">
+            <div class="stars">
+              <svg class="star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg class="star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg class="star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg class="star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg class="star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <h3>Arranjo Tropical</h3>
+            <p>Orquídeas, antúrios e folhas de monstera em vaso cerâmico.</p>
+            <p class="price">R$ 149,90</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Sobre -->
+  <section id="sobre" class="about container">
+    <div class="about-grid">
+      <div class="about-text">
+        <h2>Sobre a Flor da Vida</h2>
+        <p>Fundada em 2015, a Flor da Vida nasceu da paixão por transformar momentos comuns em memórias inesquecíveis através das flores. Nosso compromisso é oferecer sempre as flores mais frescas, selecionadas cuidadosamente a cada manhã.</p>
+        <p>Trabalhamos com produtores locais e cultivamos parte de nossas próprias flores em nosso viveiro sustentável. Cada arranjo é montado à mão por nossos floristas experientes, garantindo que cada cliente receba uma peça única e cheia de afeto.</p>
+        <div class="stats">
+          <div class="stat">
+            <p class="stat-number">+8</p>
+            <p class="stat-label">Anos de experiência</p>
+          </div>
+          <div class="stat">
+            <p class="stat-number">+50K</p>
+            <p class="stat-label">Buquês entregues</p>
+          </div>
+        </div>
+      </div>
+      <div class="about-img-wrap">
+        <div class="about-bg"></div>
+        <img src="https://images.unsplash.com/photo-1562690868-60bbe7293e94?w=600&q=80" alt="Interior da floricultura Flor da Vida" class="about-img">
+      </div>
+    </div>
+  </section>
+  <!-- Contato -->
+  <section id="contato" class="contact-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Entre em Contato</h2>
+        <p>Solicite um orçamento ou tire suas dúvidas</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon contact-icon-green">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <div>
+              <h4>Endereço</h4>
+              <p>Rua das Flores, 777 - Jardim Primavera</p>
+              <p>São Paulo - SP, 77777-777</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon contact-icon-rose">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+            </div>
+            <div>
+              <h4>Telefone</h4>
+              <p>(11) 7777-7777</p>
+              <p>(11) 77777-7777(WhatsApp)</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon contact-icon-green">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+              </svg>
+            </div>
+            <div>
+              <h4>E-mail</h4>
+              <p>contato@flordavida.com.br</p>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" onsubmit="event.preventDefault()">
+          <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Seu nome completo">
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="seu@email.com">
+          </div>
+          <div class="form-group">
+            <label for="assunto">Assunto</label>
+            <select id="assunto">
+              <option>Orçamento personalizado</option>
+              <option>Dúvidas</option>
+              <option>Encomenda</option>
+              <option>Outro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" rows="4" placeholder="Descreva o que você precisa..."></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Enviar mensagem</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="logo">
+            <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 7.5a4.5 4.5 0 1 1 4.5 4.5M12 7.5A4.5 4.5 0 1 0 7.5 12M12 7.5V9m-4.5 3a4.5 4.5 0 1 0 4.5 4.5M7.5 12H9"/>
+              <circle cx="12" cy="12" r="3"/>
+              <path d="M12 7.5V4m-4.5 8H4m16 0h-3.5"/>
+            </svg>
+            <span class="logo-text">Flor da Vida</span>
+          </div>
+          <p>Transformando momentos em memórias inesquecíveis desde 2015.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Links rápidos</h4>
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#sobre">Sobre nós</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Horário de funcionamento</h4>
+          <ul>
+            <li>Segunda a Sexta: 8h - 19h</li>
+            <li>Sábado: 8h - 14h</li>
+            <li>Domingo: Fechado</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <ul>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+              (11) 7777-7777
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+              </svg>
+              contato@flordavida.com.br
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        Flor da Vida Floricultura Ltda. | CNPJ: 77.777.777/7777-77 | Todos os direitos reservados.
+      </div>
+    </div>
+  </footer>
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const navMobile = document.getElementById('navMobile');
+    const menuIcon = menuBtn.querySelector('.menu-icon');
+    const closeIcon = menuBtn.querySelector('.close-icon');
+    menuBtn.addEventListener('click', () => {
+      navMobile.classList.toggle('open');
+      menuIcon.classList.toggle('hidden');
+      closeIcon.classList.toggle('hidden');
+    });
+    navMobile.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navMobile.classList.remove('open');
+        menuIcon.classList.remove('hidden');
+        closeIcon.classList.add('hidden');
+      });
+    });
+  </script>
+</body>
+</html>
